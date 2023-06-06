@@ -1,0 +1,26 @@
+#!/usr/bin/env php
+<?php
+/**
+ * Yii console bootstrap file.
+ */
+
+defined('YII_DEBUG') or define('YII_DEBUG', true);
+defined('YII_ENV') or define('YII_ENV', 'test');
+
+$vendorDir = '/var/www/html/work/pre-release/xianzhi';
+
+require $vendorDir . '/vendor/autoload.php';
+require $vendorDir . '/vendor/yiisoft/yii2/Yii.php';
+require $vendorDir. '/common/config/bootstrap.php';
+require $vendorDir . '/console/config/bootstrap.php';
+
+$config = yii\helpers\ArrayHelper::merge(
+    require $vendorDir . '/common/config/main.php',
+    require $vendorDir . '/common/config/main-test.php',
+    require $vendorDir. '/console/config/main.php',
+    require $vendorDir . '/console/config/main-test.php'
+);
+
+$application = new yii\console\Application($config);
+$exitCode = $application->run();
+exit($exitCode);

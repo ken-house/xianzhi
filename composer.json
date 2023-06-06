@@ -1,0 +1,64 @@
+{
+    "name": "yiisoft/yii2-app-advanced",
+    "description": "Yii 2 Advanced Project Template",
+    "keywords": ["yii2", "framework", "advanced", "project template"],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "7.3.10",
+        "yiisoft/yii2": "2.0.17",
+        "yiisoft/yii2-mongodb": "~2.1.0",
+        "yiisoft/yii2-queue": "2.3.0",
+        "yiisoft/yii2-authclient": "2.1.5",
+        "yiisoft/yii2-httpclient": "2.0.6",
+        "yiisoft/yii2-imagine": "2.1.1",
+        "php-amqplib/php-amqplib": "2.7.2",
+        "yiisoft/yii2-swiftmailer": "~2.1.0",
+        "sentry/sentry": "^3.3",
+        "elasticsearch/elasticsearch": "^7.0",
+        "firebase/php-jwt": "^4.0",
+        "riverslei/xmpush": "~1.0.3",
+        "yiisoft/yii2-elasticsearch": "~2.0.0",
+        "symfony/filesystem": "4.4.11",
+        "symfony/finder": "4.4.11",
+        "monolog/monolog": "^1.23",
+        "myweishanli/yii2-ip2location": "^1.0",
+        "guzzlehttp/guzzle": "~6.0",
+        "jianyan74/yii2-easy-wechat": "^1.0",
+        "yiisoft/yii2-redis": "~2.0.0",
+        "justinrainbow/json-schema": "^5.2",
+        "php-http/curl-client": "^2.2",
+        "sentry/sdk": "^3.1",
+        "notamedia/yii2-sentry": "^1.7",
+        "wechatpay/wechatpay": "^1.4",
+        "alibabacloud/client": "^1.5"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.0.0",
+        "yiisoft/yii2-gii": "~2.0.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "~0.3.1"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}

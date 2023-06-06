@@ -1,0 +1,46 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+    overflow: hidden;
+}
+
+#app {
+    font-family: Arial, \u601d\u6e90\u5b8b\u4f53, PingFangSC-Regular, \5FAE\8F6F\96C5\9ED1, \5b8b\4f53;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+}
+
+.mt10{
+    margin-top: 10px;
+}
+.mr10{
+    margin-right: 10px;
+}
+.ml10{
+    margin-left: 10px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.w-120{
+    width: 120px !important;
+}
+
+.w-200{
+    width: 200px !important;
+}
+
+.w-300{
+    width: 300px !important;
+}
+
+.w-400{
+    width: 400px !important;
+}
